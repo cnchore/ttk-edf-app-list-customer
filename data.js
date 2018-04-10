@@ -51,7 +51,7 @@ export function getMeta() {
 				}, {
 					name: 'content',
 					component: 'Layout',
-					className: 'app-list-currency-content',
+					className: 'ttk-edf-app-list-currency-content',
 					children: [{
 						name: 'dataGrid',
 						component: 'DataGrid',
