@@ -1,0 +1,22 @@
+{
+  "name": "ttk-edf-app-list-customer",
+  "version": "1.0.0",
+  "description": "ttk-edf-app-list-customer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thethreekingdoms/ttk-edf-app-list-customer.git"
+  },
+  "keywords": [
+    "ttk-edf-app-list-customer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thethreekingdoms/ttk-edf-app-list-customer/issues"
+  },
+  "homepage": "https://github.com/thethreekingdoms/ttk-edf-app-list-customer#readme"
+}
