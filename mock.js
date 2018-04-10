@@ -9,8 +9,7 @@ const mockData = fetch.mockData
 
 
 
-fetch.mock('v1/ba/customer/queryList', (option) => {
-	debugger
+fetch.mock('v1/ba/customer/queryList', (option) => {	
 	return {"result":true,"value":{"list":!!mockData.customer && mockData.customer.list ? mockData.customer.list : [] ,"page":{"pageSize":option.page && option.page.pageSize ? option.page.pageSize : 50,"currentPage":1,"totalPage":1,"totalCount":1}}}
 })
 

@@ -131,8 +131,7 @@ class action {
     }
 
     //分页修改
-    pageChanged = (currentPage, pageSize) => {
-    	debugger
+    pageChanged = (currentPage, pageSize) => { 	
         if (pageSize == null || pageSize == undefined) {
             pageSize = this.metaAction.gf('data.pagination').toJS().pageSize
         }
