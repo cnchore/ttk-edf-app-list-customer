@@ -16,7 +16,10 @@ function initMockData() {
 	}
 }
 
+initMockData()
+
 fetch.mock('v1/ba/customer/queryList', (option) => {
+	initMockData()
 	return {
 		"result": true,
 		"value": {
@@ -56,7 +59,6 @@ fetch.mock('v1/ba/customer/delete', (option) => {
 
 
 fetch.mock('/v1/ba/customer/update', (option) => {
-	initMockData()
 	let customer = mockData.customer.list, v
 	customer.forEach((data, index) => {
 		if (option.id == data.id) {
